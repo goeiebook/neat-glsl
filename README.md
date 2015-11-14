@@ -1,6 +1,5 @@
 # Neat Glsl
-This is an Android [Gradle plugin](https://plugins.gradle.org/plugin/ca.goeiebook.gradle.neat-glsl) for working
-working with [GLSL](https://en.wikipedia.org/wiki/OpenGL_Shading_Language). It faciliates development by
+This is an Android [Gradle plugin](https://plugins.gradle.org/plugin/ca.goeiebook.gradle.neat-glsl) for working with [GLSL](https://en.wikipedia.org/wiki/OpenGL_Shading_Language). It faciliates development by
 allowing you to incorporate GLSL as a source file instead of as a raw resource or a sticky ball of concatenated
 strings. With this plugin you control where the glsl files reside, and by keeping them out of the project's res/
 folder you avoid exposing your raw shader code to production. Also, IDE plugins like [glsl4idea](https://github.com/Darkyenus/glsl4idea) can help you during development.
